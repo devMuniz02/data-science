@@ -1,37 +1,46 @@
-<div align="center" style="text-align: center">
-<img src="http://i.imgur.com/kYYCXtC.png" alt="Open Source Society logo"/>
-<h3>Open Source Society University</h3>
-<p>
-  :bar_chart: Path to a free self-taught education in <strong>Data Science</strong>!
-</p>
-<p>
-  <a href="https://github.com/open-source-society/data-science">
-    <img alt="Open Source Society University - Data Science" src="https://img.shields.io/badge/OSSU-data--science-blue.svg">
-  </a>
-</p>
-</div>
+[![ArXiv](https://img.shields.io/badge/ArXiv-2512.16841-B31B1B?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2512.16841)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-devmuniz-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/devmuniz)
+[![GitHub Profile](https://img.shields.io/badge/GitHub-devMuniz02-181717?logo=github&logoColor=white)](https://github.com/devMuniz02)
+[![Portfolio](https://img.shields.io/badge/Portfolio-devmuniz02.github.io-0F172A?logo=googlechrome&logoColor=white)](https://devmuniz02.github.io/)
+[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-manu02-FFD21E?logoColor=black)](https://huggingface.co/manu02)
 
-## Contents
+# Data Science
 
-- [About](#about)
-- [Curricular Guideline](#curricular-guideline)
-- [How to use this guide](#how-to-use-this-guide)
-- [Community](#community)
-- [Prerequisites](#prerequisites)
-- [Curriculum](#curriculum)
-- [How to contribute](#how-to-contribute)
-- [Code of conduct](#code-of-conduct)
-- [Team](#team)
+<div align="center" style="text-align: center"> <img src="http://i.imgur.com/kYYCXtC.png" alt="Open Source Society logo"/> <h3>Open Source Society University</h3> <p> :bar_chart: Path to a free self-taught education in <strong>Data Science</strong>! </p> <p> <a href="https://github.com/open-source-society/data-science"> <img alt="Open Source Society University - Data Science" src="https://img.shields.io/badge/OSSU-data--science-blue.svg"> </a> </p> </div>
 
-## About
+- [About](#about) - [Curricular Guideline](#curricular-guideline) - [How to use this guide](#how-to-use-this-guide) - [Community](#community) - [Prerequisites](#prerequisites) - [Curriculum](#curriculum) - [How to contribute](#how-to-contribute) - [Code of conduct](#code-of-conduct) - [Team](#team)
 
-This is a path for those of you who want to complete the Data Science undergraduate curriculum on your own time, **for free**, with courses from the **best universities** in the World.
+## Overview
 
-In our curriculum, we give preference to MOOC (Massive Open Online Course) style courses because these courses were created with our style of learning in mind.
+📊 Path to a free self-taught education in Data Science!
 
-## Curricular Guideline
+## Repository Structure
 
-OSSU Data Science uses the report [Curriculum Guidelines for Undergraduate Programs in Data Science](https://www.amstat.org/asa/files/pdfs/EDU-DataScienceGuidelines.pdf) as our guide for course recommendation.
+| Path | Description |
+| --- | --- |
+| `coursepages/` | Top-level project directory containing repository-specific resources. |
+| `extras/` | Top-level project directory containing repository-specific resources. |
+| `CNAME` | Top-level file included in the repository. |
+| `LICENSE.md` | Repository license information. |
+| `README.md` | Primary project documentation. |
+| `topic_progression_graph.jpg` | Top-level file included in the repository. |
+
+## Getting Started
+
+1. Clone the repository.
+
+   ```bash
+   git clone https://github.com/devMuniz02/data-science.git
+   cd data-science
+   ```
+
+2. Prepare the local environment.
+
+Review the repository files below to identify the appropriate local setup steps for this project.
+
+3. Run or inspect the project entry point.
+
+Use the project-specific scripts or notebooks in the repository root to run the workflow.
 
 ## How to use this guide
 
@@ -57,6 +66,28 @@ Python and R are heavily used in Data Science community and our courses teach yo
 ### Content Policy
 
 You must share only files that you are allowed. **Do NOT disrespect the code of conduct** that you sign in the beginning of your courses.
+
+## Contents
+
+- [About](#about)
+- [Curricular Guideline](#curricular-guideline)
+- [How to use this guide](#how-to-use-this-guide)
+- [Community](#community)
+- [Prerequisites](#prerequisites)
+- [Curriculum](#curriculum)
+- [How to contribute](#how-to-contribute)
+- [Code of conduct](#code-of-conduct)
+- [Team](#team)
+
+## About
+
+This is a path for those of you who want to complete the Data Science undergraduate curriculum on your own time, **for free**, with courses from the **best universities** in the World.
+
+In our curriculum, we give preference to MOOC (Massive Open Online Course) style courses because these courses were created with our style of learning in mind.
+
+## Curricular Guideline
+
+OSSU Data Science uses the report [Curriculum Guidelines for Undergraduate Programs in Data Science](https://www.amstat.org/asa/files/pdfs/EDU-DataScienceGuidelines.pdf) as our guide for course recommendation.
 
 ## Community
 
@@ -216,12 +247,3 @@ You can [open an issue](https://help.github.com/articles/creating-an-issue/) and
 You can also [fork this project](https://help.github.com/articles/fork-a-repo/) and send a [pull request](https://help.github.com/articles/using-pull-requests/) to fix any mistakes that you have found.
 
 If you want to suggest a new resource, send a pull request adding such resource to the [extras](https://github.com/open-source-society/data-science/tree/master/extras) section. The **extras** section is a place where all of us will be able to submit interesting additional articles, books, courses and specializations.
-
-## Code of Conduct
-
-[OSSU's code of conduct](https://github.com/ossu/code-of-conduct).
-
-## Team
-
-* **Curriculum Maintainer**: [Waciuma Wanjohi](https://github.com/waciumawanjohi)
-* **Contributors**: [contributors](https://github.com/open-source-society/data-science/graphs/contributors)
